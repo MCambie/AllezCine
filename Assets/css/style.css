@@ -28,3 +28,29 @@
       }
       .row.content {height:auto;}
     }
+
+/* Boutons réseaux sociaux  */
+  .col-sm-2.sidenav.social_media{
+      padding-left: 0px;
+    }
+p.icones{
+  text-align: center;
+  width: 20px;
+  background-color: black;
+}
+p.icones:hover{
+
+  left: 100px; width: 80px ;
+  transition: 1s left;
+  background-color: black;
+}
+i{
+  background-color: white;
+}
+/* i{
+  width: 50px;
+}
+i:hover{
+     left:182px;opacity:1;width:276px;
+     transition:1s left,1s width,1s opacity;
+} */
