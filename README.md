@@ -10,7 +10,7 @@
 
 Nous avons reçu un travail d'intégration front-end, nous devons remettre une one-page du site AllezCiné ainsi qu'une newletter. Le tout en deux semaines. 
 
-- repository : `frontend-AllezCina`
+- repository : `frontend-AllezCinez`
 - team : `true`
 - Durée : `2 semaines`
 
@@ -25,8 +25,8 @@ Nous avons reçu un travail d'intégration front-end, nous devons remettre une o
 
 - Vous avez 2 travaux en rendre :
 
-       - Un site en ONE PAGE avec un design fourni (yes !). [Accès rapide]
-       - Création d’une newsletter pour faire la promo des nouveautés sur votre site. [Accès rapide]
+     - Un site en ONE PAGE avec un design fourni (yes !). [Accès rapide]
+     - Création d’une newsletter pour faire la promo des nouveautés sur votre site. [Accès rapide]
 
 Pour cela, vous devez utiliser les technologies vues depuis le début, c’est à dire :
 
