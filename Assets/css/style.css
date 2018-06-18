@@ -2,9 +2,9 @@
   color:red;
 }
 
-.container-fluid{
-  padding-right: 0;
-  padding-left: 0;
+header.container-fluid{
+    padding: 0;
+    margin: 0;
 }
 
 /*  Box cookies*/
@@ -35,6 +35,10 @@
       border-radius: 0;
       color: white;
     }
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+       margin: 0;
+       color: white;
+}
 
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
