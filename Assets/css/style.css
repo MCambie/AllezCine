@@ -1,10 +1,64 @@
+.red{
+  color:red;
+}
+
+
+
+header.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*  Box cookies*/
+
+#cookies {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background:#DDDDDD;
+    padding:8px 0;
+    text-align: center;
+    font-size:11px;
+    margin-top:-50px;
+}
+
+#cookies_close {
+
+    width: 18px;
+    height:18px;
+    display: block;
+    cursor: pointer;
+    float:right;
+    margin-right:30px;
+}
+/*  Menu */
 .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      color: white;
     }
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+       margin: 0;
+       color: white;
+}
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {
+      height: 450px;
+      width: 100%;
+  }
 
     /* Set gray background color and 100% height */
     .sidenav {
@@ -28,3 +82,61 @@
       }
       .row.content {height:auto;}
     }
+
+/* Boutons réseaux sociaux  */
+.col-sm-2.sidenav.social_media
+{
+  padding-left: 0px;
+}
+
+p.icones
+{
+  text-align: right;
+  position: relative;
+  right:165px; */
+  width: 150px;
+  border-radius: 40px ;
+  padding: 5px;
+  color: white;
+}
+
+p.icones:hover
+{
+  right: 80px;
+  transition: 1s ;
+}
+
+i
+{
+  background-color: white;
+  border-radius:50px;
+  width: 25px;
+  text-align: center;
+  padding:5px;
+}
+
+#twit
+{
+  background-color:#388FF4;
+}
+
+#face
+{
+  background-color:#3E3F97;
+}
+
+#drib
+{
+  background-color:#ED0076;
+}
+
+#google
+{
+  background-color:#E03721;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-dribbble, .fa-google-plus-g
+{
+  color: black;
+}
+/* Fin boutons */
