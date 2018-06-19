@@ -68,27 +68,27 @@ header.container-fluid{
     }
 
 /* Boutons réseaux sociaux  */
-  .col-sm-2.sidenav.social_media{
+.col-sm-2.sidenav.social_media{
       padding-left: 0px;
     }
 p.icones{
   text-align: center;
-  width: 20px;
+  width: 40px;
   background-color: black;
+  border-radius: 40px;
+  padding-left: 5px;
 }
 p.icones:hover{
 
   left: 100px; width: 80px ;
   transition: 1s left;
   background-color: black;
+  text-align: right;
+  padding-right: 5px;
 }
 i{
   background-color: white;
+  border-radius: 60px;
+  width: 25px;
 }
-/* i{
-  width: 50px;
-}
-i:hover{
-     left:182px;opacity:1;width:276px;
-     transition:1s left,1s width,1s opacity;
-} */
+/* Fin boutons */
