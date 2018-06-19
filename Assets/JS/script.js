@@ -25,8 +25,3 @@ $(document).ready(function(){
 
             });
   });
-
-// Boutons réseaux sociaux
-function media(){
-
-}
