@@ -84,26 +84,28 @@ header.container-fluid{
     }
 
 /* Boutons réseaux sociaux  */
-.col-sm-2.sidenav.social_media
+
+.jpp
 {
-  padding-left: 0px;
+  position: fixed;
+  top:240px;
+  left:-115px;
+  width: 150px;
 }
 
 p.icones
 {
-  text-align: right;
   position: relative;
-  right:165px; */
-  width: 150px;
-  border-radius: 40px ;
+  text-align: right;
+  border-radius: 0px 40px 40px 0px ;
   padding: 5px;
   color: white;
 }
 
 p.icones:hover
 {
-  right: 80px;
-  transition: 1s ;
+  left: 115px;
+  /* transition-duration: 1s ; */
 }
 
 i
