@@ -66,6 +66,8 @@
                   </div>
                 </nav>
                 </section>
+                <!-- Carroussel  -->
+                <section class="carroussel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -92,6 +94,7 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+                </section>
 <!-- Login / Register -->
                 <section class="connexion-banner">
                   <ul class="connexion">
@@ -107,7 +110,7 @@
 
                     <!-- Modal content-->
                     <div class="modal-content">
-                      <div class="modal-header" style="padding:35px 50px;">
+                      <div class="modal-header" style="padding:10px 50px;">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4><span class="glyphicon glyphicon-lock"></span></h4>
                       </div>
@@ -124,7 +127,7 @@
                           <div class="checkbox">
                             <label><input type="checkbox" value="" checked>Remember me</label>
                           </div>
-                            <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                            <button type="submit" class="btn btn-success btn-block bg-dark"><span class="glyphicon glyphicon-off"></span> Login</button>
                         </form>
                       </div>
                       <div class="modal-footer">
@@ -133,43 +136,51 @@
 
 
                             <p>Not a member? <a href="#">Register</a></p>
-                            <p>Forgot <a href="#">Password?</a></p>
+                            <p>Forgot <button id="register-modal">Password?</button></p>
                         </div>
                       </div>
                     </div>
 
                   </div>
                 </div>
-                <!-- Modal  -->
+                <!-- Modal register  -->
                 <div class="modal fade" id="myModal2" role="dialog">
                   <div class="modal-dialog">
 
                     <!-- Modal content-->
                     <div class="modal-content">
-                      <div class="modal-header" style="padding:35px 50px;">
+                      <div class="modal-header" style="padding:10px 50px;">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4><span class="glyphicon glyphicon-lock"></span></h4>
                       </div>
                       <div class="modal-body" style="padding:40px 50px;">
                         <form>
                           <div class="form-group">
-                            <label for="usrname2"><span class="glyphicon glyphicon-user"></span> Username</label>
-                            <input type="text" class="form-control" id="usrname2" placeholder="Enter email">
+                            <label for="Name"><span class="glyphicon glyphicon-user"></span> Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Enter your name">
+                          </div>
+                          <div class="form-group">
+                            <label for="email"><span class="glyphicon glyphicon-user"></span> Email</label>
+                            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
                           </div>
                           <div class="form-group">
                             <label for="psw2"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                            <input type="text" class="form-control" id="psw2" placeholder="Enter password">
+                            <input type="password" class="form-control" id="psw2" placeholder="Enter password">
+                          </div>
+                          <div class="form-group">
+                            <label for="confirm-psw"><span class="glyphicon glyphicon-eye-open"></span> Confirmer le password</label>
+                            <input type="password" class="form-control" id="confirm-psw" placeholder="Confirm your password">
                           </div>
                           <div class="checkbox">
-                            <label><input type="checkbox" value="" checked>Remember me</label>
+                            <label><input type="checkbox" value="" checked>J'accepte les <a href="https://fr.wikipedia.org/wiki/Conditions_g%C3%A9n%C3%A9rales_d%27utilisation">conditions générales d'utilisation</a></label>
                           </div>
-                            <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                            <button type="submit" class="btn btn-success btn-block bg-dark"><span class="glyphicon glyphicon-off"></span>Register</button>
                         </form>
                       </div>
                       <div class="modal-footer">
                         <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-                        <p>Not a member? <a href="#">Sign Up</a></p>
-                        <p>Forgot <a href="#">Password?</a></p>
+                        <div class="modal-footer-p">
+                        </div>
                       </div>
                     </div>
 

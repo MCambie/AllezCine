@@ -40,9 +40,13 @@ header.container-fluid{
       margin-bottom: 0;
       border-radius: 0;
     }
+.nav-item:hover {
+  background: red;
+}
 .navbar.navbar-expand-lg.navbar-light.bg-light{
        margin: 0;
 }
+
 /* .jumbotron{
   width: 100% !important;
 } */
@@ -64,6 +68,7 @@ header.container-fluid{
 .connexion-banner li{
   display: inline;
   color: black;
+  font-size: 14px;
 }
 .connexion-banner li i{
   background: none;
@@ -71,31 +76,41 @@ header.container-fluid{
 .connexion-banner li button{
   background: black;
   color: white;
+  opacity:0.9;
+  font-size: 14px;
+
+}
+.connexion-banner li button:hover{
+  opacity:1;
+}
+.modal{
+  border: none;
 }
 .modal-header{
   height: 40%;
 }
 .modal-header, h4, .close {
-    background-color: dimgrey;
+    background-color: #343A40;
     color:white !important;
     text-align: center;
     font-size: 30px;
 }
 .modal-footer {
-    background-color: dimgrey;
-    text-align: left!important;
+    background-color: #343A40;
+    justify-content: flex-start;
 }
 .modal-footer p{
   margin-bottom:0!important;
+
 }
 .modal-footer button{
-  margin-left: 0;
-  margin-right: auto;
 }
-.modal-footer-info a{
+.modal-footer-p p{
       color:white;
 }
-
+.btn.btn-success.btn-block.bg-dark{
+  border: none;
+}
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {
       height: 450px;

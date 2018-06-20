@@ -38,6 +38,11 @@ $(document).ready(function(){
     });
 });
 
+$("#register-modal").click(function(){
+  $('#myModal').modal('hide');
+  $('#myModal2').modal('show');
+});
+
 // Boutons réseaux sociaux
 function media(){
 
