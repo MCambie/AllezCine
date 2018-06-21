@@ -89,25 +89,31 @@ header.container-fluid{
 {
   position: fixed;
   top:240px;
-  left:-115px;
+  left:0px;
   width: 150px;
+
 }
 
-p.icones
+.icones
 {
   position: relative;
+  left: -115px;
   text-align: right;
   border-radius: 0px 40px 40px 0px ;
   padding: 5px;
   color: white;
+  width: 150px;
 }
 
-p.icones:hover
+.icones:active
 {
-  left: 115px;
-  /* transition-duration: 1s ; */
-}
+  left: 0px;
 
+}
+.icones:focus
+{
+  left: 0px;
+}
 i
 {
   background-color: white;
