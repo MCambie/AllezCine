@@ -31,26 +31,122 @@ header.container-fluid {
 
 /*  Menu */
 
+.menu {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  color: white;
+}
+
+.navbar-brand.text-white {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-item a {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 5px;
+}
+
+.nav-item a:hover {
+  background: red;
+  border-radius: .3rem;
+}
+
+.dropdown-item {
+  background: white !important;
+}
+
+.dropdown-item:hover {
+  background: red !important;
+  border-radius: .3rem !important;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   margin: 0;
+}
+
+/* .jumbotron{
+  width: 100% !important;
+} */
+
+.form-inline, .form-control, .search-loupe, .fas.fa-search {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 0.4;
+}
+
+.search-loupe:hover {
+  opacity: 1;
+}
+
+.connexion-banner {
+  background: red;
+}
+
+.connexion-banner li {
+  display: inline;
+  color: black;
+  font-size: 14px;
+}
+
+.connexion-banner li i {
+  background: none;
+}
+
+.connexion-banner li button {
+  background: black;
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+.connexion-banner li button:hover {
   color: white;
 }
 
+/*  modal forms*/
+
+.modal {
+  border: none;
+}
+
+.modal-header {
+  height: 40%;
+}
+
 .modal-header, h4, .close {
-  background-color: #5cb85c;
+  background-color: #343A40;
   color: white !important;
   text-align: center;
   font-size: 30px;
 }
 
+.modal-body .form-control {
+  background: lightgrey;
+}
+
 .modal-footer {
-  background-color: #f9f9f9;
+  background-color: #343A40;
+  justify-content: flex-start;
+}
+
+.modal-footer p {
+  margin-bottom: 0 !important;
+}
+
+.modal-footer button {}
+
+.modal-footer-p p {
+  color: white;
+}
+
+.btn.btn-success.btn-block.bg-dark {
+  border: none;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
