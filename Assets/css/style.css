@@ -113,6 +113,7 @@ header.container-fluid {
 
 .modal {
   border: none;
+  overflow: scroll;
 }
 
 .modal-header {
@@ -145,6 +146,11 @@ header.container-fluid {
   color: white;
 }
 
+/* #register-modal {
+  background: #343A40;
+  border: none;
+} */
+
 .btn.btn-success.btn-block.bg-dark {
   border: none;
 }
@@ -159,8 +165,6 @@ header.container-fluid {
 /* Set gray background color and 100% height */
 
 .sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
   height: 100%;
 }
 
@@ -240,3 +244,39 @@ i {
 }
 
 /* Fin boutons */
+
+/* bouton top */
+
+#topBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
