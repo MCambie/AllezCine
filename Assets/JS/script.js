@@ -51,6 +51,17 @@ $(document).ready(function() {
   });
 });
 
+// contact form
+function envoyer() {
+  var firstname = document.getElementById('contact-first-name').value;
+  var lastname = document.getElementById('contact-last-name').value;
+  var email = document.getElementById('contact-email').value;
+  var subject = document.getElementById('contact-subject').value;
+  var message = document.getElementById('contact-message').value;
+  var result = firstname + lastname + email + subject + message;
+  console.log(result);
+  alert.(result);
+}
 
 // Top button
 // When the user scrolls down 20px from the top of the document, show the button

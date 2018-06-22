@@ -59,8 +59,8 @@
               <a class="nav-link text-white" href="#">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="search form-inline my-2 my-lg-0">
+            <input class="search form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="search-loupe btn btn-outline my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
           </form>
         </div>
@@ -112,29 +112,27 @@
         <div class="modal-content">
           <div class="modal-header" style="padding:10px 50px;">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4><span class="glyphicon glyphicon-lock"></span></h4>
+            <span class="glyphicon glyphicon-lock"></span>
           </div>
           <div class="modal-body" style="padding:40px 50px;">
             <form>
               <div class="form-group">
-                <label for="usrname1"><span class="glyphicon glyphicon-user"></span> Username</label>
+                <label for="usrname1">Username</label>
                 <input type="text" class="form-control" id="usrname1" placeholder="Enter email">
               </div>
               <div class="form-group">
-                <label for="psw1"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                <label for="psw1">Password</label>
                 <input type="text" class="form-control" id="psw1" placeholder="Enter password">
               </div>
               <div class="checkbox">
                 <label><input type="checkbox" value="" checked>Remember me</label>
               </div>
-              <button type="submit" class="btn btn-success btn-block bg-dark"><span class="glyphicon glyphicon-off"></span> Login</button>
+              <button type="submit" class="btn btn-success btn-block bg-dark">Login</button>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Cancel</button>
             <div class="modal-footer-p">
-
-
               <p>Not a member? <button class="btn btn-default" type="submit" id="register-modal">Register</button></p>
               <p>Forgot <a href="#">Password?</a></p>
             </div>
@@ -151,24 +149,23 @@
         <div class="modal-content">
           <div class="modal-header" style="padding:10px 50px;">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4><span class="glyphicon glyphicon-lock"></span></h4>
           </div>
           <div class="modal-body" style="padding:40px 50px;">
             <form>
               <div class="form-group">
-                <label for="Name"><span class="glyphicon glyphicon-user"></span> Name</label>
+                <label for="Name">Name</label>
                 <input type="text" class="form-control" id="Name" placeholder="Enter your name">
               </div>
               <div class="form-group">
-                <label for="email"><span class="glyphicon glyphicon-user"></span> Email</label>
+                <label for="email">Email</label>
                 <input type="text" class="form-control" id="email" placeholder="Enter your Email">
               </div>
               <div class="form-group">
-                <label for="psw2"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                <label for="psw2">Password</label>
                 <input type="password" class="form-control" id="psw2" placeholder="Enter password">
               </div>
               <div class="form-group">
-                <label for="confirm-psw"><span class="glyphicon glyphicon-eye-open"></span> Confirmer le password</label>
+                <label for="confirm-psw">Confirmer le password</label>
                 <input type="password" class="form-control" id="confirm-psw" placeholder="Confirm your password">
               </div>
               <div class="checkbox">
@@ -179,8 +176,6 @@
           </div>
           <div class="modal-footer">
             <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-            <div class="modal-footer-p">
-            </div>
           </div>
         </div>
 
@@ -190,46 +185,80 @@
   </header>
   <main>
     <!-- Boutons réseaux sociaux   -->
-    <div class="row content">
-      <div class="col-sm-1 sidenav social_media">
-        <div class="jpp">
-          <p>
-            <button class="icones" id="twit">Twiter<a  class="rond"> <i class="fab fa-twitter"></i> </a></button>
-          </p>
-          <p>
-            <button class="icones" id="face">
+    <!-- <div class="row content"> -->
+    <div class="sidenav social_media">
+      <div class="jpp">
+        <p>
+          <button class="icones" id="twit">Twiter<a  class="rond"> <i class="fab fa-twitter"></i> </a></button>
+        </p>
+        <p>
+          <button class="icones" id="face">
                           Facebook<a  class="rond"> <i class="fab fa-facebook-f"></i> </a></button></p>
-          <p>
-            <button class="icones" id="drib">Dribbble<a  class="rond"> <i class="fab fa-dribbble"></i> </a></button></p>
-          <p>
-            <button class="icones" id="google">Google +<a  class="rond"> <i class="fab fa-google-plus-g"></i> </a></button>
-          </p>
+        <p>
+          <button class="icones" id="drib">Dribbble<a  class="rond"> <i class="fab fa-dribbble"></i> </a></button></p>
+        <p>
+          <button class="icones" id="google">Google +<a  class="rond"> <i class="fab fa-google-plus-g"></i> </a></button>
+        </p>
+      </div>
+    </div>
+    <!-- Film -->
+    <section class="">
+      <div>
+      </div>
+    </section>
+    <!-- Featured Movies -->
+    <section>
+      <div>
+      </div>
+    </section>
+    <!-- Shop Movie -->
+    <section>
+      <div>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section id="contact-us">
+      <h5>
+          CONTACT US
+        </h5>
+
+      <div class="row">
+        <form class="contact-form col-sm-5 col-md-5 col-lg-5 offset-sm-1 offset-md-1 offset-lg-1">
+          <div class="form-group">
+            <label for="contact-first-name"></label>
+            <input type="text" class="form-control" id="contact-first-name" placeholder="FIRST NAME">
+          </div>
+          <div class="form-group">
+            <label for="contact-last-name"></label>
+            <input type="text" class="form-control" id="contact-last-name" placeholder="LAST NAME">
+          </div>
+          <div class="form-group">
+            <label for="contact-email"></label>
+            <input type="email" class="form-control" id="contact-email" placeholder="EMAIL">
+          </div>
+          <div class="form-group">
+            <label for="contact-subject"></label>
+            <input type="text" class="form-control" id="contact-subject" placeholder="SUBJECT">
+          </div>
+          <div class="form-group">
+            <label for="contact-message"></label>
+            <textarea class="form-control" id="contact-message" maxlength="140" placeholder="YOUR MESSAGE"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger btn-default pull-left text-white" id="send-message" onclick="envoyer()">SEND MESSAGE</button>
+        </form>
+        <div class="map col-sm-6 col-md-6 col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52864.87101914459!2d-118.36149759132728!3d34.09374583208188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C+Los+Angeles%2C+Californie%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sbe!4v1529654953779"
+            width="390" height="320" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
         </div>
       </div>
-      <!-- Film -->
-      <section class="col-sm-10">
-        <div>
-        </div>
-      </section>
-      <!-- Featured Movies -->
-      <section>
-        <div>
-        </div>
-      </section>
-      <!-- Shop Movie -->
-      <section>
-        <div>
-        </div>
-      </section>
-      <!-- Contact Us -->
-      <section class="contact-form">
-      </section>
-      <div class="col-sm-1 sidebar"></div>
-    </div>
+    </section>
+    <!-- </div> -->
   </main>
+
   <!-- Footer -->
   <footer class="container-fluid text-center">
-    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <p>Footer Text</p>
   </footer>
 
