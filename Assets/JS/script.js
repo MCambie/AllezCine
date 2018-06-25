@@ -52,15 +52,17 @@ $(document).ready(function() {
 });
 
 // contact form
-function envoyer() {
+
+
+
+function sendMsg() {
   var firstname = document.getElementById('contact-first-name').value;
   var lastname = document.getElementById('contact-last-name').value;
   var email = document.getElementById('contact-email').value;
   var subject = document.getElementById('contact-subject').value;
   var message = document.getElementById('contact-message').value;
-  var result = firstname + lastname + email + subject + message;
-  console.log(result);
-  alert.(result);
+  var result = "Firstname : " + firstname + "\n Lastname : " + lastname + "\n Email : " + email + "\n Subject : " + subject + "\n Your message :" + message;
+  return alert(result);
 }
 
 // Top button
@@ -68,6 +70,13 @@ function envoyer() {
 window.onscroll = function() {
   scrollFunction()
 };
+
+function btnTop() {
+  var btn = document.createElement("BUTTON"); // Create a <button> element
+  var t = document.createTextNode("CLICK ME"); // Create a text node
+  btn.appendChild(t); // Append the text to <button>
+  document.body.appendChild(btn); // Append <button> to <body>
+}
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
