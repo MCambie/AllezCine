@@ -9,6 +9,7 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="Assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     <!-- Menu -->
     <section class="menu">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand text-white" href="#"><span class ="red">ALLEZ</span>CINE</a>
+        <a class="navbar-brand text-white" href="#"><span class ="red">ALLEZ</span>CINE!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -218,10 +219,9 @@
     </section>
     <!-- Contact Us -->
     <section id="contact-us">
-      <h5>
+      <h5 class="section_title">
           CONTACT US
-        </h5>
-
+      </h5>
       <div class="row">
         <form class="contact-form col-sm-5 col-md-5 col-lg-5 offset-sm-1 offset-md-1 offset-lg-1">
           <div class="form-group">
@@ -258,8 +258,72 @@
 
   <!-- Footer -->
   <footer class="container-fluid text-center">
+    <div class="container-fluid text-center">
+      <span class="red">SUBSCRIBE TO US</span>
+      <form class="subscribe form-inline">
+        <label for="contact-email"></label>
+        <input type="email" class="form-control" id="newsletter-email" placeholder="Enter your email">
+        <button type="submit" class="btn btn-danger btn-default pull-left text-white" id="subscribe" onclick="sendMsg()">SUBSCRIBE</button>
+      </form>
+    </div>
+    <div class="row text-left border-bottom border-secondary">
+      <div class="footer-col col-sm-1 col-md-1 col-lg-1">
+      </div>
+      <div class="footer-col col-sm-2 col-md-2 col-lg-2">
+        <h6 class="footer-title border-bottom border-secondary">RELEASE</h6>
+        <p>2016</p>
+        <p>2015</p>
+        <p>2014</p>
+        <p>2013</p>
+        <p>2012</p>
+        <p>2001</p>
+      </div>
+      <div class="footer-col col-sm-2 col-md-2 col-lg-2">
+        <h6 class="footer-title border-bottom border-secondary">MOVIES</h6>
+        <p>Aventure</p>
+        <p>Comedy</p>
+        <p>Fantasy</p>
+        <p>Action</p>
+        <p>Movies</p>
+        <p>Horror</p>
+      </div>
+      <div class="footer-col col-sm-2 col-md-2 col-lg-2">
+        <h6 class="footer-title border-bottom border-secondary">REVIEW MOVIES</h6>
+        <a href="#" class="badge badge-secondary">Comedy</a>
+        <a href="#" class="badge badge-secondary">Horror</a>
+        <a href="#" class="badge badge-secondary">Historical</a>
+        <a href="#" class="badge badge-secondary">Romantic</a>
+        <a href="#" class="badge badge-secondary">Love</a>
+        <a href="#" class="badge badge-secondary">Action</a>
+        <a href="#" class="badge badge-secondary">Reviews</a>
+        <a href="#" class="badge badge-secondary">Comedy</a>
+        <a href="#" class="badge badge-secondary">Horror</a>
+        <a href="#" class="badge badge-secondary">Historical</a>
+        <a href="#" class="badge badge-secondary">Romantic</a>
+        <a href="#" class="badge badge-secondary">Love</a>
+        <a href="#" class="badge badge-secondary">Action</a>
+        <a href="#" class="badge badge-secondary">Reviews</a>
+      </div>
+      <div class="footer-col col-sm-2 col-md-2 col-lg-2">
+        <h6 class="footer-title border-bottom border-secondary">LATEST MOVIES</h6>
+        <p>2016</p>
+        <p>2015</p>
+        <p>2014</p>
+        <p>2013</p>
+        <p>2012</p>
+        <p>2001</p>
+      </div>
+      <div class="footer-col col-sm-2 col-md-2 col-lg-2">
+        <h6 class="footer-brand border-bottom border-secondary"><span class ="red">ALLEZ</span>CINE</h6>
+        <img src="./Assets/images/patchwork.png" class="patchwork " />
+      </div>
+      <div class="footer-col col-sm-1 col-md-1 col-lg-1"></div>
+    </div>
+    <hr />
     <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-    <p>Footer Text</p>
+    <p class="connect border-top border-secondary">Connect Us</p>
+
+
   </footer>
 
 
