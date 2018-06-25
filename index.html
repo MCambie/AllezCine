@@ -196,15 +196,15 @@
       <!-- <div class="col-sm-1 sidenav social_media"> -->
       <div class="jpp">
         <p>
-          <button class="icones" id="twit">Twiter<a  class="rond"> <i class="fab fa-twitter"></i> </a></button>
+          <button class="icones" id="twit">Twiter<a  class="rond"> <i class="boutonMedia fab fa-twitter"></i> </a></button>
         </p>
         <p>
           <button class="icones" id="face">
-                          Facebook<a  class="rond"> <i  class="fab fa-facebook-f"></i> </a></button></p>
+                          Facebook<a  class="rond"> <i  class="boutonMedia fab fa-facebook-f"></i> </a></button></p>
         <p>
-          <button class="icones" id="drib">Dribbble<a  class="rond"> <i class="fab fa-dribbble"></i> </a></button></p>
+          <button class="icones" id="drib">Dribbble<a  class="rond"> <i class="boutonMedia fab fa-dribbble"></i> </a></button></p>
         <p>
-          <button class="icones" id="google">Google +<a  class="rond"> <i class="fab fa-google-plus-g"></i> </a></button>
+          <button class="icones" id="google">Google +<a  class="rond"> <i class="boutonMedia fab fa-google-plus-g"></i> </a></button>
         </p>
       </div>
     </div>
@@ -216,82 +216,473 @@
 
       <div class="container">
         <div class="row border" id="rowMain">
-          <div class="col-sm-2">
-            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
-            <p>Titre</p>
+
+          <div class="col video-link medium-paragraph">
+
+            <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
+              </a>
+            <p class="titreFilm">The Revenant </p>
             <div class="row">
               <div class="col-sm-6">
-                <p>oui</p>
+                <p class="titreFilm">2015</p>
               </div>
               <div class="col-sm-6">
-                <p>non</p>
+                <p class="titreFilm">Thriller</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-2">
-            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
-            <p>Titre</p>
+          <div class="col video-link medium-paragraph">
+
+            <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <img src="Assets/images/hostel-2005-thriller.jpg" alt="film" class="films">
+              </a>
+            <p class="titreFilm">Hostel</p>
             <div class="row">
               <div class="col-sm-6">
-                <p>oui</p>
+                <p class="titreFilm">2005</p>
               </div>
               <div class="col-sm-6">
-                <p>non</p>
+                <p class="titreFilm">Thriller</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-2">
-            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
-            <p>Titre</p>
+          <div class="col video-link medium-paragraph">
+
+            <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <img src="Assets/images/inception-2010-scifi.jpg" alt="film" class="films">
+              </a>
+            <p class="titreFilm">Inception</p>
             <div class="row">
               <div class="col-sm-6">
-                <p>oui</p>
+                <p class="titreFilm">2010</p>
               </div>
               <div class="col-sm-6">
-                <p>non</p>
+                <p class="titreFilm">Thriller</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-2">
-            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
-            <p>Titre</p>
+          <div class="col video-link medium-paragraph">
+
+            <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <img src="Assets/images/seven-1995-thriller.jpg" alt="film" class="films">
+              </a>
+            <p class="titreFilm">Seven</p>
             <div class="row">
               <div class="col-sm-6">
-                <p>oui</p>
+                <p class="titreFilm">1995</p>
               </div>
               <div class="col-sm-6">
-                <p>non</p>
+                <p class="titreFilm">Thriller</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-2">
-            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
-            <p>Titre</p>
+          <div class="col video-link medium-paragraph">
+
+            <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <img src="Assets/images/zoolander-2001-comedie.jpg" alt="film" class="films">
+              </a>
+            <p class="titreFilm">Zoolander</p>
             <div class="row">
               <div class="col-sm-6">
-                <p>oui</p>
+                <p class="titreFilm">2001</p>
               </div>
               <div class="col-sm-6">
-                <p>non</p>
+                <p class="titreFilm">Comedie</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
+      <!-- MODAL -->
+      <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-video">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="row">
+                  <div col-sm-2 class="TESTEXX">
+                    <p>Auteur: Alejandro González Iñárritu</br>
+
+                      année: 2015</br>
+
+                      acteur: Leonardo DiCaprio</br>
+
+                      genre: Drame/Thriller</br>
+                    </p>
+                  </div>
+                  <div col-sm-10 class="TESTEXX">
+                    <p> Description:</br> Durant une expédition dans une Amérique profondément sauvage, le légendaire trappeur Hugh Glass est brutalement attaqué par un ours et laissé pour mort par les membres de sa propre équipe. Dans sa quête de survie,
+                      Glass endure une souffrance inimaginable ainsi que la trahison de son homme de confiance, John Fitzgerald. Guidé par la volonté et l'amour de sa famille, Glass doit affronter un hiver brutal dans une inexorable lutte pour survivre
+                      et trouver la rédemption.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
 
     <!-- Featured Movies -->
     <section>
-      <div class="container">
+      <div>
+        <h5 class="section_title">Featured Movies</h5>
       </div>
-    </section>
-    <!-- Featured Movies -->
-    <section>
       <div class="container">
+        <button>All</button>
+        <button>Actions</button>
+        <button>Policiers</button>
+
+        <div class="row">
+          <div class="col">
+            <img src="Assets/images/WhatWeDoInTheShadows-2014-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/thefall-2006-dramatique.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/swissarmyman-2016-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/Survivestyle5-2004-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/starwarsempire-1980-scifi.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/shutterisland-2010-thriller.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="row">
+          <div class="col">
+            <img src="Assets/images/batmanmovie-2017-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/lesdeuxtours-2002-aventure.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/orientexpress2.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/redsparrow2.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/seven-1995-thriller.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/hostel-2005-thriller.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <button class="moreMovies">plus de film</button>
+        </div>
+      </div>
+
+    </section>
+    <!-- Features Series -->
+    <section>
+      <div>
+        <h5 class="section_title">Features Series</h5>
+      </div>
+      <div class="container">
+        <button>All</button>
+        <button>Actions</button>
+        <button>Policiers</button>
+
+        <div class="row">
+          <div class="col">
+            <img src="Assets/images/therevenant2.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/batmanmovie-2017-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/intouchables-2011-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/lepatientanglais-1996-dramatique.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/lesdeuxtours-2002-aventure.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/orientexpress2.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="row">
+          <div class="col">
+            <img src="Assets/images/shutterisland-2010-thriller.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/starwarsempire-1980-scifi.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/Survivestyle5-2004-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/swissarmyman-2016-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/thefall-2006-dramatique.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="col">
+            <img src="Assets/images/WhatWeDoInTheShadows-2014-comedie.jpg" alt="film" class="films">
+            <p class="titreFilm">The Revenant </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="titreFilm">2015</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="titreFilm">Thriller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <button class="moreMovies">plus de film</button>
+        </div>
       </div>
     </section>
     <!-- Shop Movie -->
