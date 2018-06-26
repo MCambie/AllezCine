@@ -379,6 +379,78 @@ footer p {
   text-transform: uppercase;
 }
 
+/* Filtre movies */
+
+.btnMovies {
+  width: 150px;
+  background-color: #eeedf2;
+  color: black;
+  margin-right: 3px;
+  text-align: center;
+  border-color: #eeedf2;
+  border-radius: 0px;
+}
+
+.btnMovies:hover {
+  background-color: #FF0000;
+  color: white;
+  border-color: #FF0000;
+}
+
+.filterDiv {
+  float: left;
+  text-align: center;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* filtre series */
+
+.btnSeries:hover {
+  background-color: #FF0000;
+  color: white;
+  border-color: #FF0000;
+}
+
+.btnSeries {
+  width: 150px;
+  background-color: #eeedf2;
+  color: black;
+  margin-right: 3px;
+  text-align: center;
+  border-color: #eeedf2;
+  border-radius: 0px;
+}
+
+.filterDivSeries {
+  float: left;
+  text-align: center;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* BOUTON PLUS */
+
+.btn-more {
+  display: block;
+  /* margin: 20px auto; */
+}
+
+.btn-primary {
+  background-color: #FF0000;
+  color: white;
+  text-transform: uppercase;
+  border-color: #FF0000;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /***** Modal video-film *****/
 
 .Trailer {
