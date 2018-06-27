@@ -63,31 +63,24 @@ function sendMsg() {
 }
 
 // Top button
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {
-  scrollFunction();
-};
-
-function btnTop() {
-  var btn = document.createElement("BUTTON"); // Create a <button> element
-  var t = document.createTextNode("CLICK ME"); // Create a text node
-  btn.appendChild(t); // Append the text to <button>
-  document.body.appendChild(btn); // Append <button> to <body>
-}
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("topBtn").style.display = "block";
-  } else {
-    document.getElementById("topBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() == 0) {
+      $('#scrollToTop').fadeOut("fast");
+    } else {
+      if ($('#scrollToTop').length == 0) {
+        $('body').append('<div id="scrollToTop">' + '<a href="#">Retour en haut</a>' + '</div>');
+      }
+      $('#scrollToTop').fadeIn("fast");
+    }
+  });
+  $('body').on('click', '#scrollToTop a', function(event) {
+    event.preventDefault();
+    $('html,body').animate({
+      scrollTop: 0
+    }, 'slow');
+  });
+});
 
 // Modal Video
 $('.launch-modal').on('click', function(e){
