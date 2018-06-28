@@ -83,13 +83,14 @@ $(document).ready(function() {
 });
 
 // Modal Video
-$('.launch-modal').on('click', function(e){
-    e.preventDefault();
-    $( '#' + $(this).data('modal-id') ).modal();
+$('.launch-modal').on('click', function(e) {
+  e.preventDefault();
+  $('#' + $(this).data('modal-id')).modal();
 });
 
 // filtre Boutons films
 filterSelection("all")
+
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");
@@ -126,7 +127,7 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btnMovies");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
@@ -134,6 +135,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 // filtre bouton SERIES
 filterSelectionSeries("all")
+
 function filterSelectionSeries(c) {
   var x, i;
   x = document.getElementsByClassName("filterDivSeries");
@@ -170,7 +172,7 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainerSeries");
 var btns = btnContainer.getElementsByClassName("btnSeries");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
@@ -178,24 +180,40 @@ for (var i = 0; i < btns.length; i++) {
 }
 // bouton more/less movies
 function togglediv(bouton, id) {
-var div = document.getElementById(id);
-if(div.style.display=="none") {
-div.style.display = "block";
-bouton.innerHTML = "Moins de films";
-} else {
-div.style.display = "none";
-bouton.innerHTML = "plus de films";
-}
+  var div = document.getElementById(id);
+  if (div.style.display == "none") {
+    div.style.display = "block";
+    bouton.innerHTML = "Moins de films";
+  } else {
+    div.style.display = "none";
+    bouton.innerHTML = "plus de films";
+  }
 }
 
 // bouton more/less Series
 function prout(bouton, id) {
-var div = document.getElementById(id);
-if(div.style.display=="none") {
-div.style.display = "block";
-bouton.innerHTML = "Moins de films";
-} else {
-div.style.display = "none";
-bouton.innerHTML = "plus de films";
+  var div = document.getElementById(id);
+  if (div.style.display == "none") {
+    div.style.display = "block";
+    bouton.innerHTML = "Moins de films";
+  } else {
+    div.style.display = "none";
+    bouton.innerHTML = "plus de films";
+  }
 }
+
+
+// Shop Movies slide
+function shopMoviesNext() {
+  let first = document.getElementById('shopMoviesFirst');
+  let second = document.getElementById('shopMoviesSecond');
+  first.style.display = "none";
+  second.style.display = "block";
+}
+
+function shopMoviesPrevious() {
+  let first = document.getElementById('shopMoviesFirst');
+  let second = document.getElementById('shopMoviesSecond');
+  second.style.display = "none";
+  first.style.display = "block";
 }

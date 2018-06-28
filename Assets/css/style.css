@@ -12,9 +12,9 @@ header.container-fluid {
   margin: 0;
 }
 
-section {
+/* section {
   padding-top: 45px;
-}
+} */
 
 /*  Box cookies*/
 
@@ -183,6 +183,27 @@ section {
 
 /* Secction Shop Movies */
 
+.shopMoviesPager {
+  padding-right: 10px;
+}
+
+.pagination a {
+  background-color: black;
+  color: white !important;
+  border-radius: 0 !important;
+  /* padding: 8px; */
+}
+
+.pagination a:hover {
+  background-color: red;
+  color: white;
+  border-radius: 0 !important;
+}
+
+.panel-col {
+  padding: 0;
+}
+
 .panel-shopMovies {
   margin-top: 5px;
   background-color: lightgrey;
@@ -200,6 +221,16 @@ section {
 span.badge {
   float: right;
   font-size: 10px;
+  color: red;
+}
+
+.panel-trailer {
+  padding: 0;
+  background-color: black;
+}
+
+.panelTrailerInfo {
+  font-size: 14px;
 }
 
 /*  Contact us */
