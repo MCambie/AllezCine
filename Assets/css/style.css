@@ -411,6 +411,8 @@ footer p {
   background-color: #eeedf2;
   color: black;
   margin-right: 3px;
+  margin: 0px;
+  padding: 5px;
   text-align: center;
   border-color: #eeedf2;
   border-radius: 0px;
@@ -445,6 +447,8 @@ footer p {
   background-color: #eeedf2;
   color: black;
   margin-right: 3px;
+  margin: 0px;
+  padding: 5px;
   text-align: center;
   border-color: #eeedf2;
   border-radius: 0px;
