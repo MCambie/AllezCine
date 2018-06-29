@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 // contact form
 function sendMsg() {
-  var firstname = document.getElementById('contact-first-name').value;
+  var firstname = document.getElementById('contactFirstName').value;
   var lastname = document.getElementById('contact-last-name').value;
   var email = document.getElementById('contact-email').value;
   var subject = document.getElementById('contact-subject').value;
