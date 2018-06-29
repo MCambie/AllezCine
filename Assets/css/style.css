@@ -229,8 +229,16 @@ span.badge {
   background-color: black;
 }
 
-.panelTrailerInfo {
-  font-size: 14px;
+.panelTrailerInfo, .panelTrailerContent, .dubbleDot {
+  padding: 0;
+}
+
+.panelTrailerInfo p, .dubbleDot p, .panelTrailerContent p {
+  margin-bottom: 0;
+}
+
+.panelTrailerInfo span, .dubbleDot span, .panelTrailerContent p {
+  font-size: 10px;
 }
 
 /*  Contact us */
