@@ -5,6 +5,7 @@
 - **When ?** :  18/06 - 30/06/2018
 - **By who ?** : [Nicolas de Liederkerke](https://github.com/Liedekerke), [Marie Cambie](https://github.com/mcambie) 
 - **The Website** : [HERE](https://liedekerke.github.io/frontend-AllezCine/) - *v1*.
+- **News Letter** : [HERE](https://liedekerke.github.io/frontend-AllezCine/Newsletter.html).
 
 ## About
 
@@ -44,14 +45,7 @@ Avant toute chose, sachez qu'il vous faudra
 - rédiger une brève description dans le repo
 
 
-#### Test lighthouse
 
+#### Layout
 
-#### Test W3
-
-
-#### Le Mockup
-
-[HERE PDF](https://github.com/becodeorg/Johnson2/blob/master/projets/AllezCine/layout-one-v2.jpg)
-
-#### Difficultés rencontrées
+[HERE](https://github.com/becodeorg/Johnson2/blob/master/projets/AllezCine/layout-one-v2.jpg)
