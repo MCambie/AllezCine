@@ -5,8 +5,8 @@
 - **Quand ?** :  18/06 - 29/06/2018
 - **Par ?** : [Nicolas de Liederkerke](https://github.com/Liedekerke), [Marie Cambie](https://github.com/mcambie) 
 - **Kanban** : La répartition des tâches est disponible [ici](https://github.com/Liedekerke/frontend-AllezCine/projects/2?fullscreen=true)
-- **Le site** : [AllezCine](https://liedekerke.github.io/frontend-AllezCine/) - *v1*.
-- **La newsletter** : [Ici](https://liedekerke.github.io/frontend-AllezCine/Newsletter.html).
+- **Le site** : [AllezCine](https://mcambie.github.io/AllezCine/)
+- **La newsletter** : [Ici](https://liedekerke.github.io/frontend-AllezCine/Newsletter.html)
 
 ## Demande client : 
 
