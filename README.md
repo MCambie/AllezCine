@@ -32,7 +32,7 @@ Pour cela, vous devez utiliser les technologies vues depuis le début, c’est �
 - Font Awesome Icons       
 
 ## Briefing complet : 
-Pour le consulter,cliquez [ici](https://github.com/MCambie/BXL-Johnson-2.5/tree/master/projets/AllezCine)
+Pour le consulter,cliquez [ici](https://github.com/MCambie/AllezCine/blob/master/briefing.md)
 
 ## Objectifs : 
 - Respecter un design fourni
