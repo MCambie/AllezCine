@@ -18,7 +18,7 @@ Nous avons reçu un travail d'intégration front-end, nous devons remettre une o
 
 ## Demande client : 
 
-- Un site en ONE PAGE avec un design fourni. [Maquette à respecter](https://github.com/MCambie/BXL-Johnson-2.5/blob/master/projets/AllezCine/layout-one-v2.jpg)
+- Un site en ONE PAGE avec un design fourni. [Maquette à respecter](Assets/images/layout-one-v2.jpg)
 - Création d’une newsletter pour faire la promo des nouveautés sur votre site.
 
 Pour cela, vous devez utiliser les technologies vues depuis le début, c’est à dire :
